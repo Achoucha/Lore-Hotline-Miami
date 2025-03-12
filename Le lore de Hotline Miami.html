@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Lore de Hotline Miami</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+        
+        body {
+            background-color: #0d0d0d;
+            color: #ff0099;
+            font-family: 'Orbitron', sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px #ff0099;
+        }
+        h1 {
+            font-size: 3em;
+            color: #FFFF00;
+            text-shadow: 
+                0 0 3px #FFFF00,
+                0 0 5px #FFFF00,
+                0 0 7px #FFFF00,
+                0 0 10px #ff0099;
+        }
+        p {
+            font-size: 1.2em;
+            text-shadow: 0 0 5px #ff0099;
+        }
+        .character {
+            margin: 20px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .character img {
+            width: 150px;
+            height: auto;
+            margin-right: 20px;
+            border: 3px solid #ff0099;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px #ff0099;
+        }
+        .character-text {
+            max-width: 500px;
+            text-align: left;
+            color: #ffff00;
+        }
+        .character h2 {
+            font-size: 2em;
+            color: #FFFF00;
+        }
+        /* Styles for additional sections */
+        .themes, .development, .quotes, .music, .gallery, .faq, .social-media, .comments, .characters-list {
+            margin: 20px 0;
+        }
+        .gallery-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .gallery-container img {
+            width: 200px;
+            height: auto;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px #ff0099;
+        }
+        table {
+            margin: 20px auto;
+            width: 80%;
+            border-collapse: collapse;
+            color: #FFFF00;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ff0099;
+            text-align: center;
+        }
+        th {
+            background-color: #ff0099;
+        }
+        td {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+        .cta {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #ff0099;
+            color: #fff;
+            font-size: 1.5em;
+            border-radius: 12px;
+            display: inline-block;
+            text-decoration: none;
+        }
+        /* Video container */
+        .video-container {
+            margin: 40px 0;
+        }
+        iframe {
+            width: 100%;
+            max-width: 800px;
+            height: 450px;
+            border-radius: 12px;
+        }
+        /* Header styles */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #0d0d0d;
+            border-bottom: 2px solid #ff0099;
+        }
+        header a {
+            color: #ffff00;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        .download-btn {
+            background-color: #ff0099;
+            padding: 10px 20px;
+            border-radius: 12px;
+            text-decoration: none;
+            color: white;
+            font-size: 1.2em;
+        }
+        /* Image full width but not taking all space */
+        .image-large {
+            width: 80%; /* Limiting width to 80% */
+            height: auto;
+            object-fit: cover;
+            margin: 20px auto;
+            display: block; /* Centering the image */
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div>Hotline Miami</div>
+        <div>
+            <a href="#">Accueil</a>
+            <a href="https://store.steampowered.com/agecheck/app/219150/?l=french" class="download-btn" target="_blank">Download Hotline Miami</a>
+        </div>
+    </header>
+
+
+    <div class="container">
+        <h1>Le Lore de Hotline Miami</h1>
+        <p>Un site dédié aux amateurs de Hotline Miami et de son storytelling captivant.</p>
+
+        <!-- Image large pleine largeur -->
+        <img src="HM image large.jpeg" alt="Hotline Miami Image" class="image-large">
+
+        <!-- Résumé de l'histoire -->
+        <div class="themes">
+            <h2>Résumé de l'Histoire</h2>
+            <p>Hotline Miami se déroule à la fin des années 80 à Miami. Le joueur suit Jacket, un homme mystérieux, dans une quête de violence et de rédemption. Le jeu plonge dans des événements influencés par la Guerre Froide, où une milice anti-russe se forme. Ces événements aboutissent à une spirale de violence et de manipulations politiques, avec des personnages qui, chacun à leur manière, jouent un rôle dans cette dynamique.</p>
+        </div>
+
+        <!-- Image large mais pas pleine largeur -->
+        <img src="HM 1 et 2.jpeg" alt="Hotline Miami Image" class="image-large">
+
+        <!-- Comparaison des deux jeux -->
+        <div class="development">
+            <h2>Les Différences entre Hotline Miami 1 et 2</h2>
+            <p>Les deux jeux de la franchise Hotline Miami sont très différents à plusieurs niveaux, notamment dans la narration et les mécaniques de jeu. Voici les principales différences :</p>
+            <ul>
+                <li><strong>Gameplay :</strong> Hotline Miami 1 se concentre sur un gameplay plus rapide et plus simple, tandis que le 2 ajoute de nouvelles mécaniques de jeu, comme la possibilité de jouer différents personnages avec des styles de combat distincts.</li>
+                <li><strong>Graphismes :</strong> Le premier jeu a un style pixelisé plus simple, tandis que le second jeu a des graphismes plus détaillés et des animations améliorées, tout en conservant la même ambiance néon et rétro.</li>
+                <li><strong>Histoire :</strong> Hotline Miami 1 suit Jacket dans sa quête de vengeance, tandis que Hotline Miami 2 explore plusieurs points de vue de personnages différents, offrant une narration plus complexe et des événements précurseurs du premier jeu.</li>
+                <li><strong>Ambiance musicale :</strong> Les deux jeux partagent une bande-son électro intense, mais Hotline Miami 2 introduit des morceaux plus variés, avec une atmosphère plus sombre et plus dramatique.</li>
+            </ul>
+        </div>
+
+        <!-- Tableau comparatif -->
+        <div class="comparison-table">
+            <h2>Comparaison des Deux Jeux</h2>
+            <table>
+                <tr>
+                    <th>Critère</th>
+                    <th>Hotline Miami 1</th>
+                    <th>Hotline Miami 2</th>
+                </tr>
+                <tr>
+                    <td>Gameplay</td>
+                    <td>Rapide et simple</td>
+                    <td>Plus complexe, ajout de nouveaux personnages</td>
+                </tr>
+                <tr>
+                    <td>Graphismes</td>
+                    <td>Pixel art simple</td>
+                    <td>Graphismes plus détaillés et animés</td>
+                </tr>
+                <tr>
+                    <td>Histoire</td>
+                    <td>Suivi de Jacket, quête de vengeance</td>
+                    <td>Plusieurs perspectives et préquelles</td>
+                </tr>
+                <tr>
+                    <td>Ambiance musicale</td>
+                    <td>Bande-son électro intense</td>
+                    <td>Bande-son plus variée et sombre</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Personnages Marquants -->
+        <div class="characters-list">
+            <h2>Les Personnages Marquants</h2>
+            
+            <div class="character">
+                <img src="HM jacket.webp" alt="Jacket">
+                <div class="character-text">
+                    <h2>Jacket</h2>
+                    <p><strong>Personnalité :</strong> Jacket est un personnage complexe et énigmatique. Il est plutôt silencieux et mystérieux, un homme de peu de mots qui semble être en quête de rédemption, mais ses actions violentes suggèrent des motivations plus profondes et torturées.</p>
+                    <p><strong>Arme/Attaque :</strong> Jacket utilise principalement des armes de mêlée, comme des couteaux et des battes, mais il manie aussi des armes à feu. Il n'hésite pas à utiliser sa violence pour accomplir ses missions, notamment lors de ses attaques brutales contre ses ennemis.</p>
+                </div>
+            </div>
+            
+            <div class="character">
+                <img src="HM Biker.webp" alt="Biker">
+                <div class="character-text">
+                    <h2>Biker</h2>
+                    <p><strong>Personnalité :</strong> Biker est un personnage impulsif et sans scrupules. Il incarne l'archétype du "bad boy", en quête de pouvoir et de destruction. Il n'hésite pas à se débarrasser de quiconque se met en travers de son chemin.</p>
+                    <p><strong>Arme/Attaque :</strong> Biker se bat principalement avec des armes à feu, en particulier un pistolet. Cependant, il utilise aussi sa moto pour écraser ses ennemis dans certaines scènes, ce qui montre son côté brutal et implacable.</p>
+                </div>
+            </div>
+            
+            <div class="character">
+                <img src="HM Richter.webp" alt="Richter">
+                <div class="character-text">
+                    <h2>Richter</h2>
+                    <p><strong>Personnalité :</strong> Richter est l'un des antagonistes de Hotline Miami. Son rôle dans le jeu est celui d'un agent d'une organisation secrète. Son côté froid et méthodique fait de lui un personnage redoutable et calculateur.</p>
+                    <p><strong>Arme/Attaque :</strong> Richter est un expert dans l'utilisation des armes à feu et des stratégies militaires. Il est connu pour son efficacité et son professionnalisme.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tableau des armes des personnages -->
+        <div class="weapons-table">
+            <h2>Armes des Personnages</h2>
+            <table>
+                <tr>
+                    <th>Personnage</th>
+                    <th>Armes Utilisées</th>
+                </tr>
+                <tr>
+                    <td>Jacket</td>
+                    <td>Couteaux, Bâtons, Armes à feu (pistolet, fusil)</td>
+                </tr>
+                <tr>
+                    <td>Biker</td>
+                    <td>Pistolet, Moto (pour écraser les ennemis)</td>
+                </tr>
+                <tr>
+                    <td>Richter</td>
+                    <td>Pistolet, Armes à feu diverses</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Vidéo -->
+<div class="video-container">
+    <h2>Je vous partage un édit de Biker, le bad boy de Hotline Miami ! Hésitez pas à aller suivre le compte :p</h2>
+    <iframe src="HM tiktok.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+
+        <!-- CTA -->
+        <div>
+            <a href="https://hotlinemiami.com" class="cta" target="_blank">Découvrir plus sur Hotline Miami</a>
+        </div>
+
+    </div>
+</body>
+</html>
